@@ -1,0 +1,259 @@
+40
+
+Sample Lesson Plans
+50-minute Comparative Literature class on Rachilde’s novel The Juggler.1
+Objectives for student learning:
+Students will be able to ...
+
+1. Place the novel and its protagonist within the context of Rachilde’s life and literary career.
+2. Identify and analyze the "decadent" connections between Baudelaire and Rachilde.
+
+On board:
+Rachilde: Marguerite Emery Vallette (1860-1953)
+"Mademoiselle Baudelaire"
+Over 60 published works:
+Monsieur Vénus (1884); La Jongleuse/The Juggler (1900, 1982 reprint, 1990 translation)
+
+1. Announcements and reminders (5 minutes)
+2. Introduce the novel (10 minutes)
+2.1. Prompts (5 minutes):
+Poll: "How many read the introduction to the novel?" "Has anyone heard of Rachilde before?"
+If many students have read it:
+ "What was interesting, curious, or unexpected about the author?"
+ "What are some connections between Rachilde’s life and what you have seen in the novel so far?"
+
+If just a couple or no one has read it:
+
+ "The novel is said to be somewhat autobiographical: from reading the first fifty pages, what can you surmise about Rachilde’s life?
+ "Why do you think she was called ‘Mademoiselle Baudelaire’?"
+
+2.2. Connect novel and author through a short lecture on Rachilde’s biography (5 minutes)
+
+3. "Decadent" connections between Baudelaire and Rachilde (20 minutes)
+3.1. Discussion: "What are some key images we have seen in Baudelaire’s poems that also appear in the
+novel?" (list images on board; e.g. make up, costumes, hair, Creole…) (5-7 minutes)
+3.2. Group activity (5 minutes):
+Split class into groups of 4 or 5; assign roles: one note taker, one reporter. Assign one image to each
+group and ask them to look for specific examples in the text of that image and answer the question:
+"How is Rachilde using this Baudelairean image in the text? And to what effect?" (write questions on
+board)
+3.3. Class debrief of group work (8-10 minutes)
+
+4. Check for understanding (10-12 minutes)
+4.1. Discussion: "So how can we understand Rachilde’s nickname ‘Mademoiselle Baudelaire’? As praise,
+irony, condemnation?" (If no time, ask students to write for a minute, then discuss answers next
+time.)
+
+5. Sum up main points and preview next class (the question of love in the novel) (3-5 minutes)
+________________________________
+1
+Submitted by Stiliana Milkova, CRLT
+
+University of Michigan GSI Guidebook
+
+41
+
+Sample Lesson Plans Continued
+80-minute Biology discussion on "prokaryote gene regulation"2
+Goal for student learning:
+To identify the structure and regulation mechanism of the lac operon and trp operon by using a role-play
+activity.
+Materials:
+Lecture and discussion notes.
+1. In-class quiz on previous three lectures (5 min).
+2. Review and role-play set-up (20 min).
+2.1 Review the structure of the lac and trp operon (7 min). Draw the structure on the board for reference and review the biological process and regulation of lac operon.
+2.2 Ask the students to come to the board in pairs to complete the figure with important component molecules (5 min).
+
+ If the students can successfully draw the pathway, ask another student to talk through the pathway again.
+ If the students have difficulty drawing the pathway, the other students or the GSI could help them to figure
+out the pathway.
+
+2.3 Review the trp operon mechanism (8 min).
+
+ Ask students to work in groups of 3-4 people each for 5 min to talk through how this operon is being regulated while referring to the structure on the board. (Instructions: discuss how the trp operon responds to
+environment with/without tryptophan, what proteins are involved, and how they interact with each other).
+ To debrief, ask someone to talk through the trp operon mechanism (3 min).
+
+3. Check for Understanding: Play the "Lac Operon" role-play (45 min).
+3.1 Introduce the lac operon and trp operon role-play activity and explain the process (5 min).
+Assign the roles of different molecules to volunteer students who will be the "actors," while all the
+other students will be the "directors" of the play.
+3.2 Role-play (15 min): The "actors" play the dynamic regulation of the lac operon, and the "directors"
+judge whether they play a functional lac operon or not. Change the environmental conditions, play
+the responses of the lac operon again (10 min). If time permits, repeat for the trp operon. (5min)
+3.3 Group Discussion (10 min): As a large group, discuss the following questions:
+ What are the ways to improve the play by better representing the regulation of the pathway?
+ How would one exhibit specific versus non-specific interactions?
+ What other responses will be stimulated under other conditions, such as mutations?
+
+3.4 Students discuss remaining exercise questions in small groups (15 min).
+
+
+
+
+
+Sample exercise question: What do you think would happen in each of the following?
+An E.coli missing a functional lacZ gene.
+An E.coli missing a functional lacI gene.
+An E.coli in which the repressor molecule no longer can bind lactose.
+
+4. Summarize the discussion and any remaining questions (10 min).
+
+________________________________
+2
+Submitted by Yaxuan Yang, Molecular, Cellular & Developmental Biology as a sample lesson from Bio 172 (under the
+direction of Dr. Kenneth Cadigan)
+
+Center for Research on Learning and Teaching
+
+42
+
+Sample Lesson Plans Continued
+50-minute Comparative Politics Class on Modernization Theory3
+Objectives for student learning:
+Students will be able to …
+
+1. Analyze and discuss practical implications for contemporary political issues in light of modernization
+theory.
+2. Solve game theoretic models related to modernization theory.
+Materials:
+ PowerPoint Slides
+ Handout of images from: Kashi, E. 2008. Curse of the Black Gold: 50 Years of Oil in the Niger Delta. New
+York: powerHouse Books.
+
+Agenda:
+1. Review Economic Determinants of Democracy Theories – Think-pair-share (10 minutes)
+Show students PowerPoint slide of Figure 6.2 from textbook depicting "Proportion of Democracies
+at Various Levels of Wealth, 1950-1990".
+• Think: Ask students to write a minute-paper about what this figure illustrates about the relationship between wealth and democracy. Ask them to write out the variants of modernization
+theory that explain this relationship as they recall them from the textbook.
+• Pair: Have them pair with a neighbor to discuss their reflections.
+• Share: Debrief with whole class by asking for 2-3 students to share some of the highlights of
+their conversation.
+2. Game Theoretic Model Illustration – Large group discussion (10 minutes)
+Display PowerPoint slide of Figure 6.8 from text, which illustrates an extensive form game between
+the state and the citizen. Solve the game together as a class. Discuss the following: Given the Nash
+Equilibrium solution to this game, what can we conclude about the relationship between wealth and
+democracy?
+3. Case Study Discussion – Large group discussion (5 minutes)
+Show PowerPoint slide of the book jacket image from the novel "Les Miserables." Ask class the following discussion questions:
+4.
+
+5.
+
+ What did the text argue was the key difference between England and France in the 17th Century? How
+does this case study relate to modernization theory?
+
+Implications of the Theory – Small group exercises (20 minutes)
+
+4.1. "Resource Curse" implications (15 minutes):
+Put up PowerPoint slide with the following instructions:
+ First, I will give you each one of four photographs with a caption (a quotation or a poem) from "Curse of
+the Black Gold." I’d like you to free write about how your photograph relates to the variant of modernization theory we just discussed. (2 minutes)
+ Second, join into groups with 4 people who each should have a different photo than you do. Take turns
+presenting your photo to the whole group. (6 minutes)
+ Finally, regroup with those who have the same photo as you. Take a few minutes to compare your ideas.
+Each group will present their key points to the entire class. (7 minutes)
+4.2. Foreign aid implications (5 minutes):
+Discuss "What about foreign aid? According to this theory, does foreign aid to governments help or hurt
+their citizens living in poverty?"
+
+Summary activity – Think-pair (5 minutes)
+Display final PowerPoint slide with the following directions:
+What are the key points of this unit? Write down what you see as the three most important concepts
+introduced, and in one sentence, explain why these concepts are significant.
+Compare with a partner.
+
+________________________________
+3
+Submitted by Laura Schram
+
+University of Michigan GSI Guidebook
+
+43
+
+Sample Lesson Plans Continued
+50-minute Civil Engineering discussion on reading plans & specifications4
+Objectives for student learning:
+Students will be able to:
+
+1.
+2.
+
+Compare the features of Plans and Specifications.
+Analyze and discuss the relationship between these two documents with others.
+
+1.
+
+Announcements and reminders (5 minutes)
+
+2.
+
+Introduce Assignment 1—Class discussion (10 minutes)
+• Pose the following questions to stress the importance of Assignment 1’s components:
+•
+•
+•
+
+3.
+
+Why is the "General Description" in the specifications?
+What is the recap sheet? What does it tell us about this project?
+If the plans and the specifications conflict, what happens?
+
+Introduction to reading Plans & Specifications—Small group discussion (10 minutes)
+• Form students into groups of four people. Provide the same set of drawings for each group.
+• Review the structure of information in the plans. Remind students that information is arranged from the
+
+most general to the most specific.
+• Assign each group a particular subcategory (i.e., civil, architectural, structural, etc.) so they can practice read
+ing these documents.
+• Ask each group to identify all information that is relevant to their subcategory.
+• Ask each group to select one student to present a summary of their subcategory to the class.
+
+4.
+
+Analysis of Plans & Specifications—Jigsaw Exercise (15 minutes)
+• Divide students into pairs of two or three.
+• For students with Plans, students are to write answers on a handout to the following questions:
+•
+•
+•
+•
+
+On what sheet might you find: General information describing the project property?
+Identify a center line: Where might you find this?
+Identify a hidden line: What might this represent?
+Find a section cut on sheet 4: Where does this lead you to? What is this showing?
+
+•
+•
+•
+•
+
+Identify the four subcategories of the "finishes" division.
+Identify the strength of concrete required. Why is it important that the concrete strength is specified?
+Identify three types of concrete finishing described. Why are there three different types?
+Choose a division of your own interest. Do the specifications help you understand it?
+
+• For students with Specifications, write answers on a handout to the following questions:
+
+• Arrange students into groups such that each pair has one person who worked on plans and the
+other person who worked on specifications. Students are to describe their answers to each other.
+5.
+
+Reflection —Think-Pair (5 minutes)
+• Ask students to think individually about what process helped them find information and what parts of the
+plans and specifications they found confusing.
+• Have students pair with a new partner and discuss their thoughts regarding the above questions.
+
+6.
+
+Summarize the lesson and answer student questions (5 minutes)
+
+________________________________
+4
+Submitted by Branden Clements, Civil and Environmental Engineering as a sample lesson adapted from CEE 431 (under the instruction of Professor Sang Hyun Lee)
+
+Center for Research on Learning and Teaching
