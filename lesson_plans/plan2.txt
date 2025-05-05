@@ -1,0 +1,83 @@
+### **Lesson Plan: Introduction to Programming with Python**
+
+### **Learning Objectives**
+
+By the end of this lesson, students will be able to:
+
+* Understand and use basic data types (int, float, str, bool)
+* Declare and use variables in Python
+* Perform basic input and output operations
+* Write simple Python scripts using variables and expressions
+
+### **Lesson Outline**
+
+#### **1. Warm-Up (5 minutes)**
+
+* Quick review: "What is a computer program?"
+* Ask: "Has anyone written a program before? What did it do?"
+
+#### **2. Lecture: Variables and Data Types (15 minutes)**
+
+* Explain what variables are and why we use them
+* Show examples of variable assignment
+* Introduce common data types: integers, floats, strings, booleans
+* Use a few print statements to demonstrate
+
+**Sample Code:**
+
+```python
+name = "Alice"
+age = 20
+height = 5.4
+is_student = True
+
+print(name, age, height, is_student)
+```
+
+#### **3. Lecture: Input and Output (10 minutes)**
+
+* Introduce `input()` function and how to read user input
+* Discuss type conversion using `int()` and `float()`
+
+**Sample Code:**
+
+```python
+user_age = input("Enter your age: ")
+user_age = int(user_age)
+print("In 5 years, you will be", user_age + 5)
+```
+
+#### **4. Live Coding / Demo (10 minutes)**
+
+* Build a small script with the class:
+
+  * Take user’s name and age
+  * Print a greeting and calculate age in 10 years
+
+#### **5. Guided Practice (15 minutes)**
+
+* Students write a script:
+
+  * Ask for name, favorite number
+  * Multiply favorite number by 2 and print the result with a message
+
+#### **6. Peer Review / Pair Share (5 minutes)**
+
+* Students trade scripts with a neighbor and run them
+* Identify one thing they like and one suggestion
+
+#### **7. Q\&A and Wrap-Up (10 minutes)**
+
+* Answer common questions
+* Recap key concepts
+* Tease next class topic: conditionals and logic
+
+---
+
+### **Homework Assignment**
+
+* Write a Python script that:
+
+  * Asks the user for their birth year
+  * Calculates and prints their age (assume current year is hardcoded)
+  * Outputs whether they are old enough to vote (18+)
