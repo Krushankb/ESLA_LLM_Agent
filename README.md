@@ -1,4 +1,4 @@
-# ESLA_LLM_Agent
+# ESL_LLM_Agent
 
 1. You will need to install langchain, langchain community and langchain_chroma using pip
 2. You will need to download ollama externally
