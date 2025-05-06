@@ -1,0 +1,219 @@
+Reflective Learning
+Jiaxin Wan and Jiaxin Duy Nguyen
+
+Objective:
+- Students will define debugging and identify common error types in code.
+- Students will apply systematic debugging techniques to identify and fix errors in code.
+- Students will draw parallels between debugging code and reflective learning processes.
+- Students will implement a reflective practice cycle in their teaching approach.
+
+Introduction/Hook (~5 mins)
+Jiaxin:
+  • Introduce ourselves briefly.
+  • Ask: “Have you ever tried to fix something, without knowing exactly what was wrong?”
+  • Relate this to debugging: “Debugging is like troubleshooting; we need a structured approach to find and fix errors systematically.”
+  • Present a quick broken Python code snippet and ask students to identify the issue.
+
+Jiaxin:
+  • Introduce themselves and expand on the analogy.
+  • Introduce the lesson objectives and how debugging connects to reflective teaching.
+
+Teaching Content
+Part 1: Showing Debugging is a structured process of reflection (~10 mins)
+Jiaxin & Jiaxin:
+  • Show real‑world examples of issues that we can debug
+  • Explain what are the steps of the reflective process
+  • Take turns explaining the pipeline for debugging
+  • Asking questions to check everyone’s comprehension (e.g., Kahoot):
+      – True/False: Debugging is just fixing typos in code. (False)
+      – What’s the first step of debugging? (Reproduce the error)
+      – [still finalizing the question list]
+
+Part 2: Using Trace Tables to show how to do debugging
+Jiaxin:
+  • Introduce Trace Tables as a method for tracking variable values during execution.
+  • Provide an example on the board.
+  • Explain step‑by‑step how to use a Trace Table.
+
+Activity: Real‑time Feedback Loop (During exercises)
+Jiaxin:
+  • Distribute pre‑written JavaScript snippets with errors.
+  • Guide students in pairs to fill in Trace Tables to identify errors.
+  • Circulate and provide hints; everyone should speak out loud while doing the reflection.
+
+Jiaxin:
+  • Give each student three sticky notes: green, yellow, and red
+      – Green = "I understand and am making progress"
+      – Yellow = "I'm working but have questions"
+      – Red = "I'm stuck"
+  • Have students display their current status to facilitate targeted assistance.
+  • Discuss afterward how this feedback loop models both debugging and teaching assessment.
+
+Part 3: Reflective Teaching and Debugging as Parallel Processes
+Jiaxin:
+  • Explain Reflective Teaching as a Debugging Process:
+      “Debugging a lesson = Debugging a code”
+  • Introduce the Four‑Step Reflective Teaching Process:
+      1. What happened? (Describe)
+      2. Why? (Analyze)
+      3. So what? (Learn)
+      4. Now what? (Plan action)
+
+Activity: "Debug My Lesson" simulation for guided reflective journaling (10 mins)
+  – One facilitator delivers a flawed mini‑lesson (3‑4 minutes) containing:
+      • Content error (incorrect information)
+      • Pedagogical error (poor explanation technique)
+      • Engagement error (losing student attention)
+  – Students work in small groups to:
+      • Identify the "bugs" in the lesson
+      • Prioritize which to fix first
+      • Suggest solutions using the debugging framework
+  – Share findings with the class and discuss how systematic debugging approaches apply to teaching
+
+Jiaxin:
+  • Share further examples of content, engagement and pedagogical errors.
+  • Facilitate a partner discussion:
+      “Write about a time you struggled in teaching or learning. What worked? What would you change next time?”
+
+Closure
+Jiaxin:
+  • Summarize key takeaways:
+      – Debugging = structured problem‑solving.
+      – Reflective practice = structured self‑improvement.
+      – Both require intentional analysis and iteration.
+
+Jiaxin:
+  • Quick Exit Question: What’s one thing you’ll apply from today’s lesson?
+
+Materials Used:
+- Trace Table: https://www.101computing.net/trace-table/
+- PowerPoint
+- Kahoot: https://kahoot.com/
+- Plain paper for “Debug My Lesson” activity
+- Document camera to illustrate how to debug using trace tables
+
+------------------------------------------------------------
+Role‑Play 1: Math Class – Order of Operations
+Instructor (Student A) Script:
+Introduction (Monotone Voice):
+  "Today, we’re learning about order of operations. It’s simple: you always solve equations from left to right, no exceptions. Let me show you an example."
+
+Content Error:
+  Write on the board: 8 − 2 × 3
+  "First, subtract 8 minus 2 to get 6. Then multiply 6 by 3. The answer is 18."
+
+Pedagogical Error (No Interaction):
+  "Now try this one: 10 ÷ 2 + 3. Solve it the same way—left to right. I’ll wait."
+  [Pause for 2 seconds, then answer yourself.]
+  "10 divided by 2 is 5, plus 3 is 8. Got it?"
+
+Engagement Error (Disengaged Tone):
+  "Any questions? No? Let’s move on to fractions tomorrow."
+
+Debugger (Student B) Task:
+  Identify Bugs:
+    – Content Error: "The instructor ignored multiplication priority. PEMDAS wasn’t followed."
+    – Pedagogical Error: "No visuals, no student practice, and no checking for understanding."
+    – Engagement Error: "Monotone delivery; students weren’t invited to participate."
+  Prioritize Fixes:
+    – "The content error is critical—students will learn the wrong method. Fix that first!"
+  Suggest Solutions:
+    – "Revise the example: Use PEMDAS. For 8 − 2 × 3, multiply first: 2 × 3 = 6, then subtract: 8 − 6 = 2."
+    – "Add a visual PEMDAS chart and ask students to solve 10 ÷ 2 + 3 in pairs."
+    – "Use a lively tone and call on students to share answers."
+  Reflection Questions for Both:
+    – "How is teaching PEMDAS incorrectly like a logic error in code?"
+    – "What ‘syntax’ (e.g., visuals, checks) could prevent this bug?"
+
+------------------------------------------------------------
+Role‑Play 2: History Class – French Revolution
+Instructor (Student A) Script:
+Content Error:
+  "The French Revolution began in 1799 when Napoleon Bonaparte seized power. He stormed the Bastille prison to overthrow the monarchy."
+
+Pedagogical Error (Lecture‑Only):
+  "The French Revolution, beginning in 1799 under Napoleon Bonaparte, marked the end of the monarchy. Napoleon’s coup d’état, known as the 18 Brumaire, established his Consulate. His reforms, such as the Napoleonic Code, centralized power and reversed revolutionary ideals. The storming of the Bastille in 1799 by Napoleon’s forces symbolized the people’s demand for liberty, though critics argue his reign betrayed the revolution’s original goals."
+  "Napoleon later crowned himself emperor. Any questions? No? Let’s move to World War I."
+
+Engagement Error (Rushing):
+  "We’re behind schedule, so I’ll skip the group activity. Just take notes."
+
+Debugger (Student B) Task:
+  Identify Bugs:
+    – Content Error: "The revolution started in 1789, not 1799. Napoleon rose later."
+    – Pedagogical Error: "No discussion, timelines, or checks for comprehension."
+    – Engagement Error: "Rushed pacing; students lost interest."
+  Prioritize Fixes:
+    – "Content accuracy is urgent—students will memorize wrong dates."
+  Suggest Solutions:
+    – "Correct the timeline: ‘The revolution began in 1789; Napoleon took power in 1799.’"
+    – "Add a 2‑minute pair discussion: ‘Why did the Bastille matter?’"
+    – "Use a map or video clip to hook attention."
+  Reflection Questions for Both:
+    – "How is a wrong date like a syntax error in code?"
+    – "What ‘loop’ (e.g., quick quiz) could catch this bug?"
+
+------------------------------------------------------------
+Role‑Play 3: Science Class – Failed Volcano Demo
+Instructor (Student A) Script:
+Content Error:
+  "Today, we’ll see how vinegar and baking soda react to produce oxygen gas. Oxygen is what makes volcanoes erupt!"
+
+Pedagogical Error (Unprepared Demo):
+  [Pour vinegar into baking soda; minimal fizz.]
+  "Hmm… maybe I added too much vinegar. Let’s move on."
+
+Engagement Error (Ignoring Students):
+  [Students groan.]
+  "Quiet, please! Turn to page 42 for notes on chemical reactions."
+
+Debugger (Student B) Task:
+  Identify Bugs:
+    – Content Error: "The reaction produces CO₂, not O₂."
+    – Pedagogical Error: "Didn’t test the demo beforehand."
+    – Engagement Error: "Dismissed student disappointment; plowed ahead."
+  Prioritize Fixes:
+    – "Fix the content error first—students need accurate science."
+  Suggest Solutions:
+    – "Admit the mistake: ‘Actually, this reaction makes carbon dioxide!’"
+    – "Turn the failed demo into a discussion: ‘Why did it fail? Let’s hypothesize!’"
+    – "Prepare backup materials (e.g., video of a working volcano)."
+  Reflection Questions for Both:
+    – "How is a failed demo like a runtime error?"
+    – "What ‘debugging tools’ (e.g., backup plan) could salvage engagement?"
+
+------------------------------------------------------------
+Code Snippet 1
+total = 0
+for i in range(7):
+    if i % 2 == 0:
+        total = total + 1
+
+Trace Table:
+
+Line | i | total
+-----|---|------
+
+------------------------------------------------------------
+Code Snippet 2
+total = 0
+for i in range(1, 7):
+    if i % 2 == 1:
+        total = total + i
+
+Trace Table:
+
+Line | i | total
+-----|---|------
+
+------------------------------------------------------------
+Code Snippet 3
+total = 0
+for i in range(1, 7):
+    if i % 2 == 0:
+        total = total + i
+
+Trace Table:
+
+Line | i | total
+-----|---|------
