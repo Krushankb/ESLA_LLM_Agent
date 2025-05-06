@@ -135,7 +135,7 @@ def rag_chain_generate_scenario(user_input):
     return scenario
 
 def rag_chain_eval_scenario(scenario, user_response, history):
-    eval = ollama_llm_scenario_eval(scenario, user_input)
+    eval = ollama_llm_scenario_eval(scenario, user_response)
     history.append({"scenario": scenario, "user_response": user_response, "llm_eval": eval})
     return eval
 
