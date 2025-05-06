@@ -9,9 +9,10 @@ import json
 
 warnings.filterwarnings("ignore")
 
+LESSON_PLAN = "plan5"
+
 loaders = [
-    # TextLoader("./temp.txt"),
-    TextLoader("./lesson_plans/plan2.txt")
+    TextLoader(f"./lesson_plans/{LESSON_PLAN}.txt")
 ]
 
 print("Loading documents...\n")
@@ -36,7 +37,10 @@ def combine_docs(docs):
 def ollama_llm_open(user_input, context, history):
     conversation = ""
     for turn in history:
-        conversation += f"User: {turn['user_input']}\nAssistant: {turn['llm_response']}\n"
+        if "user_input" in turn:
+            conversation += f"User: {turn['user_input']}\nAssistant: {turn['llm_response']}\n"
+        elif "scenario" in turn:
+            conversation += f"Scenario: {turn['scenario']}\nUser Response: {turn['user_response']}\nEvaluation: {turn['llm_eval']}\n"
 
     prompt = (
         f"""
@@ -52,10 +56,21 @@ def ollama_llm_open(user_input, context, history):
         4. Encourages further discussion
         5. Models proper academic speaking style
 
+        You are given the lesson plan as well as the conversation history to tailor your response. The conversation history can also contain past scenarios provided to the user and their responses to those scenarios.
+        
+        Context: {context}
+
+        Conversation History: 
+        {conversation}
+
+        Give your response to the following user input keeping in mind the context and conversation history.
+        
+        Current User Input: {user_input}
+
         Your response must follow this format:
 
         Response: *Your response to the conversation.*
-        Suggestions: *Provide any suggestions on clarity and conciseness for the user's answers.*
+        Suggestions (option): *Provide any suggestions on clarity and conciseness for the user's answers.*
         English Corrections: 
         - List any misused or incorrect English statements here, then give a short reason why it's wrong and a correct way of saying it.
 
@@ -63,16 +78,6 @@ def ollama_llm_open(user_input, context, history):
         Response: That's a great question about explaining complex topics! When teaching students, it's helpful to break down difficult concepts into smaller, more manageable parts. For example, if you're explaining a mathematical concept, you might start with a simple example before moving to more complex applications.
         English Corrections:
         - Instead of "how to explain student complex topic", you can say "how to explain complex topics to students" for clearer word order and article usage.
-
-        Below, you are given the lesson plan context in the form of a document, as well as the conversation history to tailor your response.
-        
-        Context: {context}
-
-        Conversation History: 
-        {conversation}
-
-        Give your response to the following user input keeping in mind the context and conversation history:
-        Current User Input: {user_input}"
         """
     )
     response = ollama.chat(model='llama3', messages=[{'role': 'user', 'content': prompt}])
@@ -87,11 +92,11 @@ def ollama_llm_generate_scenario(context):
 
         A student approaches you after class and asks for clarification on the topic of Big-O notation. They say they are confused about the difference between O(n) and O(n^2) time complexity. Please explain the difference in a way that is easy for them to understand.
         
-        Make sure to address the user as "you" in the scenario, where the user is the International TA.
+        Make sure to address the user as "you" in the scenario, where the user is the International TA. Your scenario should end with a question or request for help from the student to the user, who will respond as a TA.
 
-        The scenario should be based on the context provided.
+        The scenario should be based on the lesson plan provided.
 
-        Context:
+        Lesson Plan:
         {context}
         """
     )
@@ -173,7 +178,7 @@ os.makedirs("history", exist_ok=True)
 current_time = time.strftime("%Y-%m-%d_%H:%M:%S", time.localtime())
 
 # Save the conversation history to a new file
-history_file_path = f"history/history_{current_time}.json"
+history_file_path = f"history/history_{LESSON_PLAN}_{current_time}.json"
 with open(history_file_path, "w") as f:
     json.dump(history, f, indent=4)
 

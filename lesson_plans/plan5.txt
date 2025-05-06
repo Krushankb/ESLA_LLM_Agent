@@ -1,0 +1,102 @@
+Certainly! While **derivatives** are formally covered in Calculus, it’s common in **Precalculus** to introduce the *concept* of derivatives as a way to prepare students for Calculus. Here's a sample **lesson plan** titled **“An Introduction to the Idea of Derivatives”**, aimed at building conceptual understanding rather than procedural fluency.
+
+---
+
+### **Lesson Plan: Introduction to Derivatives (Precalculus)**
+
+**Course:** Precalculus
+**Lesson Title:** Understanding the Concept of a Derivative
+**Duration:** 1 hour 15 minutes
+**Instructor:** \[Your Name]
+**Week:** 12 (as part of a unit on functions and rates of change)
+
+---
+
+### **Learning Objectives**
+
+By the end of this lesson, students will be able to:
+
+* Understand the derivative as a rate of change
+* Interpret the slope of a curve at a point as the instantaneous rate of change
+* Differentiate between average and instantaneous rate of change
+* Connect derivatives to real-world motion (e.g., velocity as a derivative of position)
+
+---
+
+### **Materials Needed**
+
+* Graphing calculators or Desmos access
+* Whiteboard/markers or digital whiteboard
+* Handout with graphs and slope exercises
+* Video or animation of a moving object (optional)
+
+---
+
+### **Lesson Outline**
+
+#### **1. Warm-Up: Average Rate of Change (10 minutes)**
+
+* Review the formula for average rate of change:
+
+  $$
+  \text{Average Rate} = \frac{f(b) - f(a)}{b - a}
+  $$
+* Quick activity: Students find average rate of change for $f(x) = x^2$ between $x = 1$ and $x = 3$
+
+#### **2. Motivation: Why a New Concept? (5 minutes)**
+
+* Pose a question: "How fast is a car going *right now* if we only know its position over time?"
+* Show a position-time graph of a car; discuss why average speed isn’t enough
+
+#### **3. Introduction to Instantaneous Rate of Change (10 minutes)**
+
+* Define instantaneous rate of change conceptually
+* Describe how it’s estimated using secant lines approaching a point (tangent line)
+* Use visuals or animation to show secant lines converging to a tangent
+
+#### **4. Graphical Exploration (15 minutes)**
+
+* Students use Desmos or graphing calculators:
+
+  * Plot $f(x) = x^2$
+  * Draw secant lines between $x = 1$ and nearby points (e.g., 1.5, 1.1, 1.01)
+  * Observe slope changes
+* Discuss how the slope approaches 2 as $x \to 1$
+
+#### **5. Real-World Connection: Motion (10 minutes)**
+
+* Discuss velocity as the derivative of position
+* Use example: A ball thrown in the air (position vs time)
+
+  * What’s the speed at the peak?
+  * When is the ball rising/falling fastest?
+
+#### **6. Class Activity (10 minutes)**
+
+* Worksheet: Estimate instantaneous rate of change from a graph (no formulas required)
+* Identify where functions are increasing/decreasing most rapidly
+
+#### **7. Wrap-Up and Discussion (10 minutes)**
+
+* Recap: Derivative ≈ slope at a point = instantaneous rate of change
+* Ask: “Where do you think this idea leads in Calculus?”
+* Encourage curiosity about the formal limit definition (to come in next course)
+
+---
+
+### **Homework Assignment**
+
+* Given a set of functions and tables of values, estimate the instantaneous rate of change at a point
+* Optional: Write a paragraph explaining what a derivative is *in your own words*
+
+---
+
+### **Assessment**
+
+* Informal checks for understanding during graphing activity
+* Worksheet and homework review
+* Next class: Brief quiz reviewing average vs. instantaneous rate of change
+
+---
+
+Would you like a follow-up lesson that introduces the **limit definition of the derivative**, or a **project-based activity** that connects derivatives to physics or economics?
