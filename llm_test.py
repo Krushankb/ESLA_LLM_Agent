@@ -5,6 +5,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 import ollama
 import warnings
+import json
 
 warnings.filterwarnings("ignore")
 
@@ -36,10 +37,9 @@ def ollama_llm_open(user_input, context, history):
     conversation = ""
     for turn in history:
         conversation += f"User: {turn['user_input']}\nAssistant: {turn['llm_response']}\n"
-    # conversation += f"User: {question}\n"
 
     prompt = (
-        """
+        f"""
         You are a friendly and supportive English learning assistant for International Teaching Assistants. Assume the user you are speaking with is an International Teaching Assistant (ITA) at a US postsecondary institution. They are learning English and are not native speakers. They are preparing to teach a class and need to practice their English skills.
         
         You are to help them practice conversations using academic language and help them to correctly use English when they are asking questions.
@@ -64,11 +64,16 @@ def ollama_llm_open(user_input, context, history):
         English Corrections:
         - Instead of "how to explain student complex topic", you can say "how to explain complex topics to students" for clearer word order and article usage.
 
-        Below, you are given the context in the form of a document, as well as the conversation history to tailor your response.
+        Below, you are given the lesson plan context in the form of a document, as well as the conversation history to tailor your response.
+        
+        Context: {context}
+
+        Conversation History: 
+        {conversation}
+
+        Give your response to the following user input keeping in mind the context and conversation history:
+        Current User Input: {user_input}"
         """
-        f"Context:\n{context}\n\n"
-        f"Conversation History:\n{conversation}"
-        f"Current User Input: {user_input}\n\n"
     )
     response = ollama.chat(model='llama3', messages=[{'role': 'user', 'content': prompt}])
     return response['message']['content']
@@ -76,20 +81,13 @@ def ollama_llm_open(user_input, context, history):
 def ollama_llm_generate_scenario(context):
     prompt = (
        f"""
-        You are a friendly and supportive English learning assistant for International Teaching Assistants. 
-
         Generate a scenario that an International Teaching Assistant might encounter in a US postsecondary institution. The scenario should be realistic and relevant to the academic context.
-        
-        Possible scenarios include:
-        - Explaining a topic to students during a lecture
-        - Responding to a student's question in class
-        - Handling a difficult situation with a student
 
         The scenario you output should be a short paragraph that describes a situation where a student requests help in some form to the user, who will act as the International TA. For instance:
 
         A student approaches you after class and asks for clarification on the topic of Big-O notation. They say they are confused about the difference between O(n) and O(n^2) time complexity. Please explain the difference in a way that is easy for them to understand.
         
-        Make sure to address the user as "you" in the scenario, where the user is the ITA.
+        Make sure to address the user as "you" in the scenario, where the user is the International TA.
 
         The scenario should be based on the context provided.
 
@@ -150,7 +148,7 @@ while True:
     if user_input.strip().lower() == "exit":
         print("Goodbye!")
         break
-    if user_input.strip() == "scenario":
+    if "scenario" in user_input.strip().lower():
         print("Generating scenario...\n")
         scenario = rag_chain_generate_scenario(user_input)
         print(f"Scenario: {scenario}\n")
@@ -160,7 +158,24 @@ while True:
             break
         print("Evaluating your response...\n")
         eval = rag_chain_eval_scenario(scenario, user_response, history)
-        print(f"Assistant: \n\n {eval}\n")
+        print(f"Evaluation: \n\n {eval}\n")
     else:
         response = rag_chain_open(user_input, history)
-        print(f"Assistant: {response}\n")
+        print(f"{response}\n")
+
+import os
+import time
+
+# Ensure the history directory exists
+os.makedirs("history", exist_ok=True)
+
+# Get the current timestamp
+current_time = time.strftime("%Y-%m-%d_%H:%M:%S", time.localtime())
+
+# Save the conversation history to a new file
+history_file_path = f"history/history_{current_time}.json"
+with open(history_file_path, "w") as f:
+    json.dump(history, f, indent=4)
+
+print(f"Conversation history saved to {history_file_path}")
+
