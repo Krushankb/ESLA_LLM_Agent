@@ -1,6 +1,12 @@
 # 🚀 ESL LLM Agent
 
-Welcome to **ESL_LLM_Agent** – a locally running, AI-powered ESL chatbot using LLaMA 3 and Langchain. Follow these six simple steps to get started!
+Welcome to **ESL_LLM_Agent** – a locally running, AI-powered ESL chatbot using LLaMA 3 and Langchain. 
+
+Click here to read our research paper and learn about the behind the scenes! 
+
+[Link](https://drive.google.com/file/d/1VKDTINOi6yM9DgUz60NqqP_Vb1Zc5cMU/view?usp=sharing)
+
+To get started on running our repo, follow these six simple steps!
 
 ---
 
@@ -12,11 +18,11 @@ Make sure you have Python installed, then install the required Python packages:
 pip install -r requirements.txt
 ```
 ## 2. 🧠 Download Ollama
-{You’ll need to install Ollama, a local large language model runner.
+You’ll need to install Ollama, a local large language model runner.
 
 👉 Download Ollama here: https://ollama.com/download
 
-Follow the installation instructions for your operating system.}
+Follow the installation instructions for your operating system.
 
 ## 3. 📥 Pull the LLaMA 3 Model
 Once Ollama is installed and running, open your terminal and run:
